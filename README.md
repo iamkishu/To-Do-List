@@ -5,7 +5,7 @@ step-1 : Run npm install <br/>
 step-2 : Run node server.js
 
 # LIST TASKS
-http://localhost:3000/showTasks  <br />
+GET: http://localhost:3000/showTasks  <br />
 Response: <br/>
 { <br/>
     "tasks": [  <br/>
@@ -18,14 +18,14 @@ Response: <br/>
 }  <br/>
 
 # ADD TASK
-http://localhost:3000/addTask  <br />
+POST: http://localhost:3000/addTask  <br />
 { 
     "task": "Read",
     "type": "Add Task"
 }
 
 # COMPLETE TASK
-http://localhost:3000/completeTask   <br />
+POST: http://localhost:3000/completeTask   <br />
 {
     "id":1,
     "type": "Complete Task"
